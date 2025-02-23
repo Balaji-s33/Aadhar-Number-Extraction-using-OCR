@@ -38,7 +38,7 @@ else:
 			print("detected aadhar number:",combined_text)
 			for box in[seq[1],seq[3],seq[5]]:
 				x,y,w,h=box
-				cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),2)
+				cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),3)
 		cv2.imwrite('new.jpg',image)
 end_time=time.time()
 print("Time taken:",end_time-start_time,"seconds")
