@@ -14,6 +14,6 @@ This project extracts Aadhar card numbers from an image using Optical Character 
 
 ## Output
 - The script prints detected Aadhar numbers in the format: `XXXX XXXX XXXX`.
-- A processed image (`new.jpg`) highlights detected numbers.
+- The [processed image](new.jpg) highlights detected numbers.
 
 
