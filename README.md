@@ -13,7 +13,7 @@ This project extracts Aadhar card numbers from an image using Optical Character 
 - NumPy (`numpy`)
 
 ## Output
-- The script prints detected Aadhar numbers in the format: `XXXX XXXX XXXX`.
+- The script prints and display the [detected Aadhar numbers](output.png) in the format: `XXXX XXXX XXXX`.
 - The [processed image](new.jpg) highlights detected numbers.
 
 
