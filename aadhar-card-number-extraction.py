@@ -39,6 +39,10 @@ else:
 			for box in[seq[1],seq[3],seq[5]]:
 				x,y,w,h=box
 				cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),3)
+		cv2.namedWindow("Detected Aadhar Number", cv2.WINDOW_NORMAL)
+		cv2.imshow("Detected Aadhar Number", image)
+		cv2.waitKey(0) 
+		cv2.destroyAllWindows()
 		cv2.imwrite('new.jpg',image)
 end_time=time.time()
 print("Time taken:",end_time-start_time,"seconds")
